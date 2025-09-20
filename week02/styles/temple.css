@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    margin: 10px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+main {
+    margin: 20px auto;
+    width: 500px;
+}
+ h1 {
+    color: navy;
+    margin: 10px;
+    text-align: center;
+ }
+ main img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+ }
+ section {
+    margin: 10px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 20px;
+    background-color: #ddd;
+ }
+ h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+ }
+section p {
+    margin: 10px;
+}
+section ul {
+    padding-left: 30px;
+}
