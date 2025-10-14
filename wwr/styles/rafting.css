@@ -51,7 +51,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -96,7 +96,7 @@ h1 {
     color: #fff;
 }
 
-h2{ 
+h2 { 
    background-color: var(--accent1-color); 
    width: 100%;
    padding: 10px;
@@ -142,10 +142,128 @@ box-shadow: 0px 0px 10px var(--shadow-clr) ;
     width: auto;
 }
 
+.employee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.employee figcaption {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.employee img {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 200px;
+}
+
+.info {
+    font-weight: 700;
+    text-align: center;
+    
+}
+
 footer {
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     margin-top: 1rem;
+}
+
+footer p {
+    margin-left: 15rem;
+    font-size: 1rem;
+}
+
+.map {
+    margin-right: .5rem;
+}
+
+ iframe.map {
+    border: 0;
+    width:100%; 
+    height:100%;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-section {
+    font-family: var(--body-font);
+    font-size: 1rem;
+    margin-left: .5rem;
+    background-color: var(--primary-color);
+}
+
+label, input, button, select, textarea {
+    font-family: var(--body-font)
+}
+
+input, textarea, button {
+    padding: .4rem;
+    width: 100%;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .7rem;
+    margin: 1.5rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.box {
+    border: .5px solid rgb(0 0 0 / .1);
+    padding: .5rem;
+}
+.name, .email {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+}
+
+.purpose {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin: .2rem;
+}
+
+.subscription {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    margin: 1rem;
+    font-size: .8rem;
+}
+
+.purpose label, input{
+    padding-bottom:.5rem;
+}
+
+.item {
+    border: none;
+    margin: 1rem;
+}
+
+button {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: .3rem;
+    background-color:var(--accent1-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
