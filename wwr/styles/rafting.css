@@ -288,11 +288,6 @@ button {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.purpose figcaption {
-    margin: 1rem auto;
-    text-align: center;
-}
-
 .purpose img {
     margin: 1rem auto;
     display: flex;
@@ -319,4 +314,34 @@ button {
     font-weight: 700;
     text-decoration: none;
     transition: background-color 0.3 ease;
+}
+
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.trips img {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 200px;
+}
+
+.trips h4 {
+    font-style: italic;
+}
+
+table {
+    border:1px; 
+    width:100%; 
+    border-collapse:collapse; 
+    text-align:center;
+}
+
+thead {
+    background-color:var(--accent1-color); 
+    color: var(--primary-color);
 }
