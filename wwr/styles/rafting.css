@@ -79,6 +79,9 @@ nav, p, section, article {
     position: relative;
 }
 
+.hero p{
+    text-align: center;
+}
 .hero img {
     display: block;
     width: 100%;
@@ -198,7 +201,7 @@ footer p {
     grid-template-columns: 1fr 1fr;
 }
 
-.form-section {
+.form-section, .newsletter{
     font-family: var(--body-font);
     font-size: 1rem;
     margin-left: .5rem;
@@ -223,7 +226,7 @@ fieldset {
     box-sizing: border-box;
 }
 
-.box {
+.box{
     border: .5px solid rgb(0 0 0 / .1);
     padding: .5rem;
 }
@@ -269,4 +272,51 @@ button {
     border-radius: .5rem;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+}
+
+.newsletter button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.purpose {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.purpose figcaption {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.purpose img {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 300px;
+}
+
+.grid{
+    text-align: center;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta .btn {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.3 ease;
 }
